@@ -48,6 +48,6 @@ Ensure you have the following installed:
     └── README.md             # Project documentation
 ```
 
-##👨‍💻 Author
+👨‍💻 Author
 - [Davanesh](https://github.com/Davanesh)
 
