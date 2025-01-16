@@ -1,19 +1,48 @@
-## Getting Started
+# Traffic Management System 🚦
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+A Java-based project designed to visualize and manage traffic systems using a graph-based approach. This system uses **JavaFX** for creating interactive visualizations of nodes (intersections) and edges (roads) to depict real-world traffic scenarios effectively.
 
-## Folder Structure
+---
 
-The workspace contains two folders by default, where:
+## 🎯 Features
+- **Graph Visualization**:
+  - Nodes represent intersections.
+  - Edges represent roads with weights (e.g., distance or traffic load).
+- **Dynamic Interaction**:
+  - Add or modify nodes and edges in the traffic graph.
+- **Customizable UI**:
+  - Visual representation of traffic flow using circles and lines.
+  - Color-coded nodes and edges for better understanding.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+---
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## 🛠️ Technologies Used
+- **Java**
+- **JavaFX**: For building the user interface and visualizations.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+---
 
-## Dependency Management
+## 🚀 Getting Started
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
-"# Traffic-Management-System-with-Graph-Visualization-using-JavaFX" 
+### Prerequisites
+Ensure you have the following installed:
+- **Java Development Kit (JDK)** (Version 19 or later)
+- **JavaFX SDK** (Download from [openjfx.io](https://openjfx.io/))
+
+### Setup Instructions
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/Traffic-Management-System.git
+   cd Traffic-Management-System
+   java --module-path "path-to-javafx-sdk/lib" --add-modules javafx.controls,javafx.fxml GraphVisualization
+
+TrafficManagementSystem/
+├── lib/                  # JavaFX SDK libraries
+├── src/                  # Source files
+│   └── GraphVisualization.java  # Main visualization logic
+├── .vscode/              # VS Code configuration files
+└── README.md             # Project documentation
+
+👨‍💻 Author
+[Davanesh] – github.com/Davanesh
+
