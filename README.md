@@ -36,13 +36,16 @@ Ensure you have the following installed:
    cd Traffic-Management-System
    java --module-path "path-to-javafx-sdk/lib" --add-modules javafx.controls,javafx.fxml GraphVisualization
 
-TrafficManagementSystem/
-├── lib/                  # JavaFX SDK libraries
-├── src/                  # Source files
-│   └── GraphVisualization.java  # Main visualization logic
-├── .vscode/              # VS Code configuration files
-└── README.md             # Project documentation
+###📁 Project Structure
+```bash
+  TrafficManagementSystem/
+  ├── lib/                  # JavaFX SDK libraries
+  ├── src/                  # Source files
+  │   └── GraphVisualization.java  # Main visualization logic
+  ├── .vscode/              # VS Code configuration files
+  └── README.md             # Project documentation
 
-👨‍💻 Author
-[Davanesh] – github.com/Davanesh
+## 👨‍💻 Author
+- [Davanesh](https://github.com/Davanesh)
+
 
